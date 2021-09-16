@@ -1,0 +1,300 @@
+body {
+background-color: black;
+overflow-x: hidden;
+
+
+}
+h1 {
+    font-size: 4em;
+    line-height: 1.2em;
+    font-family: jaf-domus-titling-web, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: whitesmoke;
+  }
+  h2 {
+
+    font-size: 5em;
+    line-height: 1.2em;
+    font-family: jaf-domus-titling-web, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+  }
+  
+  h3 {
+    font-size: 2em;
+    font-family: jaf-domus-titling-web, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: whitesmoke;
+  }
+  
+  p {
+    font-size: 3em;
+    line-height: 1.8em;
+    font-family: jaf-domus-titling-web, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    color: whitesmoke;
+  }
+  .banner-descript {
+    font-size: 2em;
+    line-height: 0.2em;
+    font-family: jaf-domus-titling-web, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+  }
+  .titles {
+    font-size: 1em;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    color: black!important;
+    background-color: black;
+    text-shadow: 0 0 5px #fff, 0 0 10px #f0f, 0 0 15px #fff, 0 0 20px;
+    
+
+  }
+.nav {
+    width: 100%;
+    position: fixed;
+    left: 5vh;      
+    margin-left: 0;
+    top: 30vh;
+    font-size: 1.8em;
+    line-height: 1em;
+    font-family: jaf-domus-titling-web, sans-serif !important;
+    font-weight: 200;
+    font-style: normal;
+    z-index: 1500;
+    cursor: auto;
+    display: block;
+    text-align: left;
+    text-shadow: 0 0 5px #fff, 0 0 10px #f0f, 0 0 15px #fff, 0 0 20px;
+  }
+  a:active {
+
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: pink;
+  }
+  .video-banner {
+    position: relative;
+    z-index: 1400;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+
+  }
+  .video-gallery {
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 1400;
+  }
+  .video {
+position: relative;
+    width: 100vw;
+    
+  }
+  .video-gal {
+    position: relative;
+    width: 100vw;
+
+  }
+
+
+  .burga {
+    width: 100%;
+    position: fixed;
+    top: -2vh;
+    left: 5vh;
+    font-size: 3em;
+    line-height: 1em;
+    font-family: jaf-domus-titling-web, sans-serif !important;
+    font-weight: 200;
+    font-style: normal;
+    z-index: 1900;
+    cursor: auto;
+    display: block;
+    text-align: left;
+    color: black;
+    text-shadow: 0 0 5px #fff, 0 0 10px #f0f, 0 0 15px #fff, 0 0 20px;
+    text-decoration: none;
+  
+}
+.cat {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 10vh;
+  font-size: 2em;
+  line-height: 1em;
+  font-family: jaf-domus-titling-web, sans-serif !important;
+  font-weight: 200;
+  font-style: normal;
+  z-index: 1900;
+  cursor: auto;
+  display: block;
+  text-align: left;
+  color: black;
+  text-shadow: 0 0 5px #fff, 0 0 10px #f0f, 0 0 15px #fff, 0 0 20px;
+
+}
+  .logo-text {
+    width: 100%;
+    position: fixed;
+    top: 1vh;
+    left: -5vh;
+    font-size: 0.5em;
+    line-height: 1em;
+    font-family: jaf-domus-titling-web, sans-serif !important;
+    font-weight: 200;
+    font-style: normal;
+    z-index: 1800;
+    cursor: auto;
+    display: block;
+    text-align: right;
+    color: black;
+    text-shadow: 0 0 5px #fff, 0 0 10px #f0f, 0 0 15px #fff, 0 0 20px;
+  }
+  a:active {
+
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: pink;
+  }
+  
+  @keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+  }
+
+.gallery-text {
+  background-color: rgba(255, 138, 202, 0.7);
+  font-size: 0.4em;
+  left: 0vh;
+  top: 80%;
+  position: absolute;
+  width: auto;
+  padding-left: 13vh;
+  padding-right: 2vh;
+  z-index: 1500;
+  text-align: left;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/*
+    animation: fadeOut linear 0.3s;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+  
+  @keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+  }
+*/
+
+.img-gallery{
+  position: relative;
+  margin-bottom: 20vh;
+}
+
+
+
+/* Stills Gallery */
+
+.stills-gallery {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    background: black;
+
+
+}
+
+.stills {
+    position: absolute;
+    left:0;
+		right:0;			
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+		object-fit: scale-down;
+    overflow-x: hidden;
+}
+#stills1{
+
+  z-index: 1000;
+}
+#stills2{
+
+  z-index: 900;
+}
+#stills3{
+
+  z-index: 800;
+}
+#stills4{
+
+  z-index: 700;
+}
+#stills5{
+
+  z-index: 600;
+}
+#stills6{
+
+  z-index: 500;
+}
+#stills7{
+
+  z-index: 400;
+}
+#stills8{
+
+  z-index: 300;
+}
+#stills9{
+
+  z-index: 200;
+}
+#stills10{
+
+  z-index: 100;
+}
