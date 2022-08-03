@@ -17,6 +17,10 @@
   background: url('/img/loader.gif') 50% 50% no-repeat rgba(255, 255, 255, 1);
   opacity: 1;
 }
+#about-container {
+
+  padding-top: 100px;
+}
 
 .about {
   min-height: 100vh;
@@ -26,12 +30,15 @@
 }
 
 .about-img img {
-  width: 80%;
+  width: auto;
+  max-height: 500px;
+  border: 12px solid #fff;
 }
 
 .about-text {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
+
 
 /* menu apple */
 
@@ -499,7 +506,7 @@ ul {
   }
 
   .about-img img {
-    width: 65%;
+    width: 87%;
   }
 
   .about-text {
