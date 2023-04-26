@@ -1,43 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clara Presas</title>
+    <meta property="og:title" content="Clara Presas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://clarapresas.com/" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      property="og:description"
+      content="Busco la esencia en el sinsentido. En un mundo donde como caleidoscopios nos construimos por una cadena
+  espejal de miradas, elijo cerrar los ojos para sentir. La magia de los colores son la energía inexplicable de la
+  esencia. La luz su expresión. En el proceso la realidad toma su forma desde el si..."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta property="og:image" content="https://clarapresas.com/img/about.jpg" />
+    <meta property="og:image:alt" content="Imagen personal Clara Presas" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/vph8zdg.css" />
+    <link rel="stylesheet" href="/css/lightbox.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/galeria.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/jony.css" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      setTimeout(function () {
+        $(".loader").fadeOut("slow");
+      }, 7000);
+      $(window).on("load", function () {
+        window.setTimeout(() => window.scrollTo(0, 0), 10);
+        $(".loader").fadeOut("slow");
+      });
+    </script>
+    <div
+      class="loader"
+      style="
+        background: url(img/loader.gif) 50% 50% no-repeat rgba(255, 255, 255, 1);
+      "
+    ></div>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      var skrollrInstance;
+      var onResize = function () {
+        var isMobile = $(window).width() <= 767;
+        if (!skrollrInstance && !isMobile) {
+          skrollrInstance = skrollr.init({
+            forceHeight: false,
+          });
+        } else if (skrollrInstance && isMobile) {
+          skrollrInstance.destroy();
+          skrollrInstance = null;
+        }
+      };
+      $(window).on("resize", onResize);
+      onResize();
+    });
+  </script>
+  <script src="/Scripts/lightbox-plus-jquery.min.js"></script>
+  <script src="/Scripts/nav.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $("#modalExtra").on("hide.bs.modal", function (e) {
+      $("#modalExtra iframe").attr("src", $("#modalExtra iframe").attr("src"));
+    });
+  </script>
+  <script>
+    $("#modalStreaming").modal("show");
+  </script>
 </html>

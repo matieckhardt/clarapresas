@@ -1,0 +1,40 @@
+.film {
+  display: block;
+  position: relative;
+  width: 100vw;
+  /* height: auto; */
+  background: black;
+}
+
+.frames {
+  display: block;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  background: black;
+}
+
+.video-gal {
+  display: block;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 2px 0 2px 0;
+}
+
+.video-gallery {
+  display: block;
+  height: 100vh;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .video-gallery {
+    height: auto;
+  }
+
+  .video-gal {
+    width: 100vw;
+    height: auto;
+  }
+}
