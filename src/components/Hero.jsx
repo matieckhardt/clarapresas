@@ -3,15 +3,15 @@ function Hero() {
     <div className="Hero" id="Hero" sx={{ width: "100vw" }}>
       <div class="video-banner" id="home">
         <video
-          src="/videos/videobanner.webm"
-          autoplay=""
-          muted=""
+          src="/videos/introFHD.webm"
+          autoplay="true"
+          muted
           type="video/webm"
           loop
           class="video-ban"
         ></video>
         <video
-          autoplay
+          autoplay="true"
           muted
           loop
           playsinline
@@ -20,9 +20,9 @@ function Hero() {
           id="home-mobile"
         >
           <source
-            src="/videos/videobanner-m.webm"
+            src="/videos/introMobile.webm"
             autoplay="true"
-            muted=""
+            muted
             playsinline
             loop
             controls
@@ -30,9 +30,9 @@ function Hero() {
             type="video/webm"
           />
           <source
-            src="/videos/videobanner-m.mp4"
-            autoplay="true"
-            muted=""
+            src="/videos/introMobile.mp4"
+            autoplay
+            muted
             playsinline
             loop
             controls="true"

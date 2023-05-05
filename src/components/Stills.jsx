@@ -1,3 +1,5 @@
+import React from "react";
+
 function Stills() {
   return (
     <div className="App">

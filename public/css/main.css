@@ -89,34 +89,6 @@ p {
   padding: 2px 0 2px 0;
 }
 
-.video-gal {
-  display: block;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  padding: 2px 0 2px 0;
-}
-
-.video-gallery {
-  display: block;
-  height: 100vh;
-  position: relative;
-}
-
-.gallery-text {
-  background-color: rgba(255, 138, 202, 0.7);
-  font-size: 0.4em;
-  position: absolute;
-  top: 80vh;
-  width: max-content;
-  height: max-content;
-  padding-left: 13vh;
-  padding-right: 2vh;
-  z-index: 1500;
-  text-align: left;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
 .stills {
   position: absolute;
 }

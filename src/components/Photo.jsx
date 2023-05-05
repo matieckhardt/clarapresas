@@ -1,6 +1,7 @@
 function Photo() {
   return (
     <div className="Photo">
+      <h2 className="mobileTitles"> Photo</h2>
       <section class="gallery" id="photo">
         <div class="masonryholder py-3" id="masonry">
           <div class="masonryblocks masonryhide">
