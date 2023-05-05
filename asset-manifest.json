@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a1289f2.css",
+    "main.js": "/static/js/main.50078a59.js",
+    "static/js/787.281419fb.chunk.js": "/static/js/787.281419fb.chunk.js",
+    "static/media/1 niebla.webm": "/static/media/1 niebla.15b9de7f86dd4c0fc587.webm",
+    "static/media/3 algunas.webm": "/static/media/3 algunas.d19c454e7ebb8cc415c6.webm",
+    "static/media/5 jcb.webm": "/static/media/5 jcb.d2f71e42bcef6a5eeb4b.webm",
+    "static/media/2 vuelveme.webm": "/static/media/2 vuelveme.c06adea4eaa03380a978.webm",
+    "static/media/4 makina2.webm": "/static/media/4 makina2.db5b3aaf737db7f3bb3f.webm",
+    "static/media/6 qtsl.webm": "/static/media/6 qtsl.8c38955a0bb9beb1e30a.webm",
+    "static/media/1.gif": "/static/media/1.1e9c9d076d646f86f5b3.gif",
+    "static/media/6.gif": "/static/media/6.6c26d4654689bce88a60.gif",
+    "static/media/5.gif": "/static/media/5.702248876a67f8e6c732.gif",
+    "static/media/4.gif": "/static/media/4.c239fa73f349fe18a048.gif",
+    "static/media/7.gif": "/static/media/7.5e9963231cc4d7f4e71f.gif",
+    "static/media/8 xtranos.webm": "/static/media/8 xtranos.08cd5f37ff876ca3ea06.webm",
+    "static/media/3.gif": "/static/media/3.2ea42cc695e7f173f252.gif",
+    "static/media/2.gif": "/static/media/2.58affbb24a95bc468e27.gif",
+    "static/media/7 retorno.webm": "/static/media/7 retorno.859a6bc07d34204ee3cd.webm",
+    "static/media/stills-04.jpg": "/static/media/stills-04.1c644495552dfab78f94.jpg",
+    "static/media/stills-01.jpg": "/static/media/stills-01.abe0b6165325b865d927.jpg",
+    "static/media/8.gif": "/static/media/8.8907ad78202ed28c6a11.gif",
+    "static/media/stills-06.jpg": "/static/media/stills-06.17a8b85840af60c2d2ae.jpg",
+    "static/media/stills-02.jpg": "/static/media/stills-02.07f3bed42382fcf1316c.jpg",
+    "static/media/stills-03.jpg": "/static/media/stills-03.82173f02efabbe6a9101.jpg",
+    "static/media/stills-05.jpg": "/static/media/stills-05.71075226534b8135b323.jpg",
+    "static/media/stills-07.jpg": "/static/media/stills-07.1abd5fee9c8be6bff2c4.jpg",
+    "static/media/stills-910.jpg": "/static/media/stills-910.c14b6289dbd59bb63081.jpg",
+    "index.html": "/index.html",
+    "main.3a1289f2.css.map": "/static/css/main.3a1289f2.css.map",
+    "main.50078a59.js.map": "/static/js/main.50078a59.js.map",
+    "787.281419fb.chunk.js.map": "/static/js/787.281419fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a1289f2.css",
+    "static/js/main.50078a59.js"
+  ]
+}
