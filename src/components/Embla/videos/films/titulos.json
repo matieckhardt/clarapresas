@@ -13,16 +13,16 @@
         "title": "Vuelveme a encontrar",
         "autor": "Fortuna Galante",
         "work": " Cinematography",
-        "url": "youtube.com",
+        "url": "#",
         "year": "2023",
         "type": "Short Film"
     },
     {
         "order": 3,
-        "title": "Otras tardes",
+        "title": "Algunas tardes",
         "autor": "Camila Parisi",
         "work": " Cinematography",
-        "url": "youtube.com",
+        "url": "#",
         "year": "2023",
         "type": "Short Film"
     },
@@ -49,7 +49,7 @@
         "title": "Que te sea leve",
         "autor": "La ultima escena",
         "work": " Cinematography",
-        "url": "youtube.com",
+        "url": "https://api.fwtv.tv/embed/que-te-sea-leve/que-te-sea-leve-trailer?utm_medium=referral",
         "year": "2023",
         "type": "Web Series"
     },
