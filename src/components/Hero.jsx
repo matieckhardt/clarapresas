@@ -31,7 +31,7 @@ function Hero() {
           />
           <source
             src="/videos/introMobile.mp4"
-            autoplay
+            autoplay="true"
             muted
             playsinline
             loop
