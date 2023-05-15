@@ -25,13 +25,13 @@ function Hero() {
             muted
             playsinline
             loop
-            controls
+            controls="true"
             class="video-mobile"
             type="video/webm"
           />
           <source
             src="/videos/introMobile.mp4"
-            autoplay
+            autoplay="true"
             muted
             playsinline
             loop
