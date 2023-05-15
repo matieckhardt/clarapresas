@@ -4,7 +4,7 @@
         "title": "Niebla",
         "autor": "Blvm",
         "work": "Direction",
-        "url": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=Xg2FZ5RrkGI&ab_channel=BLVMBand",
         "year": "2023",
         "type": "Videoclip"
     },
@@ -13,16 +13,16 @@
         "title": "Vuelveme a encontrar",
         "autor": "Fortuna Galante",
         "work": " Cinematography",
-        "url": "youtube.com",
+        "url": "#",
         "year": "2023",
         "type": "Short Film"
     },
     {
         "order": 3,
-        "title": "Otras tardes",
+        "title": "Algunas tardes",
         "autor": "Camila Parisi",
         "work": " Cinematography",
-        "url": "youtube.com",
+        "url": "#",
         "year": "2023",
         "type": "Short Film"
     },
@@ -31,7 +31,7 @@
         "title": "Makina2",
         "autor": "SPAIKE",
         "work": "Direction & Cinematography",
-        "url": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=NAF6yilaMsI&ab_channel=Spaike",
         "year": "2023",
         "type": "Videoclip"
     },
@@ -40,7 +40,7 @@
         "title": "Just Come Back",
         "autor": "Mati Eckhardt",
         "work": "Direction",
-        "url": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=8zL_UPYJfb4&ab_channel=MatiEckhardt",
         "year": "2023",
         "type": "Videoclip"
     },
@@ -49,7 +49,7 @@
         "title": "Que te sea leve",
         "autor": "La ultima escena",
         "work": " Cinematography",
-        "url": "youtube.com",
+        "url": "https://api.fwtv.tv/embed/que-te-sea-leve/que-te-sea-leve-trailer?utm_medium=referral",
         "year": "2023",
         "type": "Web Series"
     },
@@ -67,7 +67,7 @@
         "title": "Xtraños",
         "autor": "SPAIKE",
         "work": "Cinematography",
-        "url": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=cMv5DngXVQ4&ab_channel=Spaike",
         "year": "2023",
         "type": "Videoclip"
     }
